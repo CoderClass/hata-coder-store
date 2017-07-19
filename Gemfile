@@ -31,6 +31,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+  gem 'dotenv-rails', require: 'dotenv/rails-now'
 end
 group :production do
   gem 'rails_12factor'
@@ -43,4 +44,6 @@ group :test do
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'carrierwave'
+gem 'carrierwave-aws'
+
 
